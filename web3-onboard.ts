@@ -77,58 +77,13 @@ export default init({
   // An array of Chains that your app supports
   chains: [
     {
-      id: '0x507',
-      rpcUrl: 'https://rpc.api.moonbase.moonbeam.network',
-      label: 'Moonbase Alpha',
-      token:  'DEV',
+      id: '0xddd5',
+      rpcUrl: 'https://nova.velo.org',
+      label: 'Arbitrum Nova',
+      token:  'NOVA',
       namespace : 'evm',
       decimal: 18
     },
-    {
-      // hex encoded string, eg '0x1' for Ethereum Mainnet
-      id: '0x1',
-      // string indicating chain namespace. Defaults to 'evm' but will allow other chain namespaces in the future
-      namespace: 'evm',
-      // the native token symbol, eg ETH, BNB, MATIC
-      token: 'ETH',
-      // used for display, eg Ethereum Mainnet
-      label: 'Ethereum',
-      // used for network requests
-      rpcUrl: `https://ethereum.publicnode.com`,
-      decimal: 18
-    },
-    {
-      id: '0x504',
-      rpcUrl: 'https://rpc.api.moonbeam.network',
-      label: 'Moonbeam',
-      token: 'GLMR',
-      namespace : 'evm',
-      decimal: 18
-    },
-    {
-      id: '0x505',
-      rpcUrl: 'https://rpc.api.moonriver.moonbeam.network',
-      label: 'Moonriver',
-      namespace: 'evm',
-      token : 'MOVR',
-      decimal: 18
-    },
-    {
-      id: '0x250',
-      rpcUrl: 'https://astar.api.onfinality.io/public',
-      label: 'Astar - EVM',
-      namespace : 'evm',
-      token:  'ASTR',
-      decimal: 18
-    },
-    {
-      id: '0x150', // 336
-      rpcUrl: 'https://shiden.public.blastapi.io',
-      label: 'Shiden',
-      token: 'SDN',
-      namespace : 'evm',
-      decimal: 18
-    }
   ],
 
 
