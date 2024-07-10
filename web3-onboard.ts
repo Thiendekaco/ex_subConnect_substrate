@@ -87,14 +87,22 @@ export default init({
   ],
 
 
-  chainsPolkadot:[
+  chainsPolkadot: [
     {
-      id: '0xe005f23803ac50e8f6f8e62695d1ce109e1d68aa36c1cd2cfd15340213f3423f' ,
-      token: 'WND',
-      decimal : 12,
-      label: 'Westend',
-      blockExplorerUrl: 'westend.subscan.io',
-      namespace: 'substrate'
+      id: '0xddd5',
+      rpcUrl: 'https://nova.velo.org',
+      label: 'Arbitrum Nova',
+      token:  'NOVA',
+      namespace : 'evm',
+      decimal: 18
+    },
+    {
+      id: '0xddd6',
+      rpcUrl: 'https://nova.velo.orgxyz',
+      label: 'Arbitrum Nova test',
+      token:  'NOVA',
+      namespace : 'evm',
+      decimal: 18
     },
   ],
 
